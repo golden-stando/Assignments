@@ -1,0 +1,29 @@
+body{
+    background-color:rgb(41, 41, 41);
+    color:white
+}
+pre.center{
+    text-align: center;
+}
+div.left{
+    text-align: left;
+}
+h1{
+    font-family:verdana;
+    font-size: 80px;
+    text-align: center;
+
+}
+h2.list{
+    font-family:verdana;
+    font-size: large;
+    padding: 70px;
+}
+pre.instruct{
+    font-family:verdana;
+    padding: 50px;
+}
+#red{
+    text-align:center;
+    color:red;
+}
