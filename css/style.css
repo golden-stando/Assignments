@@ -1,6 +1,6 @@
 body{
-    background-color:rgb(41, 41, 41);
-    color:white
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0)
 }
 pre.center{
     text-align: center;
@@ -27,3 +27,33 @@ pre.instruct{
     text-align:center;
     color:red;
 }
+table, tr, td, th{
+border-style: groove;
+border-color:black;
+border-collapse:collapse;
+font-family:sans-serif;
+font-size: small;
+}
+tr.years{
+font-weight: bold;
+vertical-align: top;
+}
+td{
+    border-collapse:collapse;
+}
+thead{
+    font-weight: bold;
+    border-style:groove;
+    border-color: black;
+    background-color:blueviolet;
+}
+td.rowstart{
+    font-weight:bold;
+    color:white;
+    background-color: rgb(87, 206, 194);
+    border-color:black;
+}
+tr.bottowRow{
+    column-span: all;
+}
+
