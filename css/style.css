@@ -28,6 +28,7 @@ pre.instruct{
     color:red;
 }
 table, tr, td, th{
+border-width: 1px;
 border-style: groove;
 border-color:black;
 border-collapse:collapse;
@@ -44,6 +45,7 @@ td{
 thead{
     font-weight: bold;
     border-style:groove;
+    
     border-color: black;
     background-color:blueviolet;
 }
