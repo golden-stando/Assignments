@@ -1,0 +1,33 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(30, 30, 60);
+
+
+}
+form{
+    background-color: rgb(97, 97, 193);
+    border-style:inset;
+    border-width: 10px;
+    width:700px;
+    border-color:rgba(1, 1, 86, 0.496);
+    height:auto;
+
+}
+br{
+    padding: 10px;
+}
+div{
+    display:flex;
+    flex-direction: row;
+    flex-basis:auto;
+    justify-content: center;
+
+}
+a{
+    border-style:dotted;
+    border-width: 5px;
+    border-radius:60px;
+    padding: 10px;
+}
