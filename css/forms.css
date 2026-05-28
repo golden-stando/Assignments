@@ -25,6 +25,10 @@ div{
     justify-content: center;
 
 }
+div.form{
+    flex-direction: column;
+    justify-content: flex-start;
+}
 a{
     border-style:dotted;
     border-width: 5px;

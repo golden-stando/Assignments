@@ -1,20 +1,44 @@
 body{
-    border-style:dashed;
-    border-color:yellow;
-    border-width: 10px;
-    background-color: rgb(22, 96, 22);
+    background-color:rgb(0, 135, 126);
+    color:bisque;
+    width:1000px;
+    justify-self: center;
+    height:900px;
+    
 }
-div.container{
-    background-color:rgb(29, 135, 154);
+#container{
+    font-family: sans-serif;
+    line-height: 18px;
+    background-color: rgb(6, 49, 102);
+    border-color:yellow;
+    border-radius:10px;
+    border-width: 15px;
+    border-style:dashed;
+    height:765px;
+
+}
+section{
+    border-style:solid;
+    border-radius:40px;
+    padding-left:10px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left:20px;
+    width:500px;
 }
 header{
+    display:flex;
+    flex-grow:10px;
     font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: aliceblue;
     text-align:center;
+    justify-content: center;
+    
+    background-color: rgb(0, 94, 0);
 }
 nav{
-    background-color: rgb(36, 36, 84);
+    margin-top:10px;
+    background-color: rgb(72, 199, 206);
     
 }
 ul{
@@ -29,18 +53,45 @@ ul{
 }
 li{
     border-color: green;
-    background-color: aqua;
+    background-color: rgb(116, 218, 224);
     border-radius:15px;
-    padding: 10px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-left:20px;
+    padding-right:20px;
     border-style: solid;
     text-align: center;
+    border-width:10px;
 
 }
-
-
-img{
+aside{
+    display:flex;
+    flex-direction: column;
+    width:200px;
+    height:555px;
+    background-color: rgb(116, 218, 224);
+    position:absolute;
     float:right;
+    transform: translate(385.55%,0)
 }
-article{
-background-color: blue;
+img{
+    float:left;
+    transform: translate(-50%,0)
+}
+article.secondArticle{
+    background-color: rgb(66, 160, 186);
+    display:block;
+    width:300px;
+    justify-self: center;
+    padding: 2px;
+    text-align: end;
+    padding-left: 5px;
+    padding-right:5px;
+}
+footer{
+    display:flex;
+    flex:1;
+    background-color:rgb(0, 77, 0);
+    justify-content: center;
+    height:86px;
 }
