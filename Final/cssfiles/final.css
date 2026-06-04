@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(56, 125, 122);
+    display:flex;
+    flex-direction: column;
+    color:rgb(38, 38, 38);
+}
+form{
+    justify-content: center;
+    flex-grow: 2;
+    text-align: center;
+    border-color:rgb(43,192,22);
+}
+body.survey{
+    background-color: rgb(56, 125, 122);
+    display:flex;
+    flex-direction: column;
+    color:rgb(38, 38, 38);
+}
+div.container{
+    border-color:black;
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    border-width: 10px;
+}
+div.contributors{
+    border-color:black;
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    border-width: 10px;
+    justify-content: center;
+
+}
+article{
+    width:200px;
+    background-color: rgb(205,230,245);
+    margin: 50px;
+}
+header{
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+}
+h1{
+width:fit-content;
+justify-self: center;
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+border-style: solid;
+background-color: rgba(46, 139, 86, 0.549);
+border-radius: 25px;
+border-color: rgb(43,192,22);
+padding: 5px;
+border-width: 10px;
+font-size: 75px;
+}
+nav{
+    grid-row:start;
+    border-radius: 10px;
+    border-color:rgb(43,192,22);
+    border-width: 5px;
+    height:500px;
+    background-color: rgb(56, 125, 122);
+    border-style: groove;
+    width: 150px;
+}
+ul{
+    padding: 0px;
+    border-color:rgb(43,192,22);
+    justify-self: center;
+
+}
+li{
+    margin: 50px;
+    text-align: center;
+    list-style: none;
+    border-style: solid;
+    background-color: rgb(50, 147, 111);
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    color:rgb(205, 230, 245);
+}
+a.orgs{
+    grid-row:start;
+    text-decoration: none;
+    background-color: rgb(50, 147, 111);
+    border-radius: 10px;
+    border-color:rgb(43,192,22);
+    max-width: 100px;
+    min-width: fit-content;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+}
+aside{
+    grid-row: end;
+    max-width: fit-content;
+    justify-content: center;
+    text-align: center;
+}
