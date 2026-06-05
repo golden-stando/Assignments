@@ -4,6 +4,11 @@ body{
     flex-direction: column;
     color:rgb(38, 38, 38);
 }
+div.survey{
+    background-color:rgb(43,192,22);
+    border-style:solid;
+}
+
 form{
     justify-content: center;
     flex-grow: 2;
@@ -35,9 +40,10 @@ div.contributors{
 
 }
 article{
-    width:200px;
+    width:300px;
     background-color: rgb(205,230,245);
     margin: 50px;
+    font-size: 30px;
 }
 header{
     display: flex;
